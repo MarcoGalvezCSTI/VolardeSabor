@@ -162,7 +162,7 @@ section nav a:hover{
 .header_index {
     width: 1fr;
     height: 700px;
-    background-image: url(/content/img/banner1.png);
+    background-image: url(../img/banner1.png);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -174,13 +174,13 @@ section nav a:hover{
 
 
 @keyframes abanner_index {
-    0%{background-image: url(/content/img/banner1.png);
+    0%{background-image: url(../img/banner1.png);
         background-size: cover;background-position: center;}
-    30%{background-image: url(/content/img/banner_10.png);
+    30%{background-image: url(../img/banner_10.png);
         background-size: cover;background-position: center;}
-    70%{background-image: url(/content/img/banner_11.png);
+    70%{background-image: url(../img/banner_11.png);
         background-size: cover;background-position: center;}
-    100%{background-image: url(/content/img/banner1.png);
+    100%{background-image: url(../img/banner1.png);
         background-size: cover;background-position: center;}
 }
 
@@ -372,13 +372,13 @@ footer{
 }
 
 @keyframes abanner {
-    0%{background-image: url(/content/img/BannerInterno.png);
+    0%{background-image: url(../img/BannerInterno.png);
         background-size: cover;background-position: center;}
-    20%{background-image: url(/content/img/bannerinterno3.jpg);
+    20%{background-image: url(../img/bannerinterno3.jpg);
         background-size: cover;background-position: center;}
-    70%{background-image: url(/content/img/alitas-crispy.jpg);
+    70%{background-image: url(../img/alitas-crispy.jpg);
         background-size: cover;background-position: center;}
-    100%{background-image: url(/content/img/BannerInterno.png);
+    100%{background-image: url(../img/BannerInterno.png);
         background-size: cover;background-position: center;}
 }
 
@@ -397,13 +397,13 @@ footer{
 }
 
 @keyframes abanner2 {
-    0%{background-image: url(/content/img/banner_i1.jpg);
+    0%{background-image: url(../img/banner_i1.jpg);
         background-size: cover;background-position: center;}
-    20%{background-image: url(/content/img/banner_i2.jpg);
+    20%{background-image: url(../img/banner_i2.jpg);
         background-size: cover;background-position: center;}
-    70%{background-image: url(/content/img/banner_i3.jpg);
+    70%{background-image: url(../img/banner_i3.jpg);
         background-size: cover;background-position: center;}
-    100%{background-image: url(/content/img/banner_i1.jpg);
+    100%{background-image: url(../img/banner_i1.jpg);
         background-size: cover;background-position: center;}
 }
 
