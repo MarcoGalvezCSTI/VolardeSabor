@@ -1,0 +1,655 @@
+ 
+body {
+    background: #000000 ;
+}
+
+/* DISEÑO PARA EL NAVEGADOR - USANDO CÓDIGO TODO LO APRENDIDO EN CLASE */
+nav {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0 30px 0px 30px;
+    padding: 19px;
+}
+
+
+nav li {
+    float: left;
+    color:  antiquewhite;
+    margin-right: 30px;
+    font-size: 22px;
+}
+
+nav li ul {
+    position: absolute;
+    display: none;
+    background-color:  #000000;
+}
+
+nav a:hover {
+    color: #748226;
+}
+
+nav a {
+    text-decoration: none;
+    color: beige;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    width: 140px;
+    text-align: center;
+}
+
+
+
+nav img {
+    position: absolute;
+    display: block;  
+    margin: auto;
+    padding-left: 10px;
+}
+
+.sub_menu li {
+    float: none;
+    margin: 15px;
+}
+
+
+nav li:hover >ul {
+    display: block;
+    
+}
+
+
+/* NAVEGADOR INTERNO  */
+
+section nav li {
+    float: left;
+    color:  antiquewhite;
+    margin-right: 40px;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+section nav a {
+    text-decoration: none;
+    color: beige;
+    background-color: rgb(0, 0, 0);
+    padding: 15px 15px;
+    width: 124px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+section nav a:hover{
+    color: #A63008;
+    font-size: 31px;
+}
+
+
+.table {
+    display: table;
+    margin: auto;
+}
+
+.row {
+    display: table-row;
+
+}
+
+.cell {
+    display: table-cell;
+    width: 300px;   
+}
+
+.card {
+    padding: 10px;
+    border: 1px solid;
+    border-color: #8788837e;
+    border-radius: 19px;
+    margin: 6px;
+    background-color: #2f2f2f;
+    box-shadow: 10px 10px 15px rgb(110, 109, 109);
+}
+
+/* DISEÑO TIPO CARTA, SE USO UN DV PARA MANIPULAR MEJOR EL BORDE Y COLOR */
+
+.card-horizontal {
+    padding: 0px;
+    border: 1px solid;
+    border-color: #8788837e;
+    border-radius: 19px;
+    margin: 15px;
+    background-color: #111111;
+    display: flex;
+}
+
+.img {
+    width: 265px;
+}
+
+/* AGREGANDO ESTILOS A LA SEGUNDA FORMA DE PRESENTAR PRODUCTO - LOS ESTILOS AGREGADOS SON RELACIONADOS A LAS CLASES */
+
+.description{
+    width: 350px;
+    padding: 24px;
+}
+
+.btn_det_product {
+    text-align: center;
+    padding: 10px;
+    margin: 10px 55px 0px 55px;
+    background-color: #748126;
+    border: 2px solid;
+    border-color: #8d8b8b;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.cl_imgpro_list {
+    width: 100%;
+    border-radius: 19px 0px 0px 19px;
+    border-color: #7482263e;
+    display: block;
+}
+
+
+/* ESTILO PARA EL HEADER DE LA PAGINA INDEX */
+.header_index {
+    width: 1fr;
+    height: 700px;
+    background-image: url(/content/img/banner1.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: abanner_index;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+
+@keyframes abanner_index {
+    0%{background-image: url(/content/img/banner1.png);
+        background-size: cover;background-position: center;}
+    30%{background-image: url(/content/img/banner_10.png);
+        background-size: cover;background-position: center;}
+    70%{background-image: url(/content/img/banner_11.png);
+        background-size: cover;background-position: center;}
+    100%{background-image: url(/content/img/banner1.png);
+        background-size: cover;background-position: center;}
+}
+
+
+
+/* ESTILO PARA EL HEADER DE LA PAGINA NUESTRAS ALITAS */
+.header_alita {
+    width: 1fr;
+    height: 550px;
+    background-image: url(/content/img/banner2.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.cl_imgproduct {
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+    border: 1px solid;
+    border-color: #7482263e;
+}
+
+/* contactanos */
+
+.info {
+    width: 300px;
+    height: 250px;
+    background-color: #5b5c58cd;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 10px 10px 15px rgb(41, 75, 109);
+    padding: 15px;
+}
+
+.titulo_contactanos {
+    font-size: 45px;
+    color: #748126;
+    padding: 25px;
+}
+
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+}
+
+h3 {
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+    width: 100%;
+}
+
+h3 s {
+    text-align: center;
+    color: #aaac9e;
+    margin: auto;
+    width: 100%;
+}
+
+h4 {
+    margin: 0px;
+    color: aliceblue;
+}
+
+
+p {
+    margin: 0px;
+    color: aliceblue;
+}
+
+.cl_nameproduct {
+    color: aliceblue;
+    /* Centrar el texto */
+    text-align: left;
+    /* usar padding para margen interno */
+    padding-left: 15px;
+    padding-right: 15px;
+    /* Redondear bordes */
+    border-radius:10px ;
+}
+
+.btn_ver_product {
+    text-align: center;
+    padding: 10px;
+    background-color: #748126;
+    border: 2px solid;
+    border-color: #8d8b8b;
+    border-radius: 4px 4px 4px 4px;
+}
+
+
+
+footer{
+    width: 1300px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 35px;
+    padding-right: 35px;
+    padding-left: 35px;
+    display: flex;
+}
+
+.cl_logofooter {
+    width: 10%;
+    display: block;
+}
+
+
+.cl_logofooter_reclamo {
+    width: 40%;
+    padding-left: 70px;
+    padding-right: 150px;
+}
+
+
+.by_creation {
+    color: aliceblue;
+    text-align: center;
+}
+
+.galeria {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.grid-galeria_prod {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.galeria-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.galeria_combos {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+}
+
+.galeria_producto img {
+    width: 98%;
+    border-radius: 10px;
+}
+
+.galeria_banner {
+    margin-bottom: 0rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.gal_ban_int {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.banner_int1 {
+    background-color: rgb(0, 0, 0);
+    margin: 15px;  
+    width: 97%;
+    height: 700px;
+    border-radius: 12px 12px 0 0;
+    border: 1px solid;
+    border-color: #7482263e;
+    animation-name: abanner;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes abanner {
+    0%{background-image: url(/content/img/BannerInterno.png);
+        background-size: cover;background-position: center;}
+    20%{background-image: url(/content/img/bannerinterno3.jpg);
+        background-size: cover;background-position: center;}
+    70%{background-image: url(/content/img/alitas-crispy.jpg);
+        background-size: cover;background-position: center;}
+    100%{background-image: url(/content/img/BannerInterno.png);
+        background-size: cover;background-position: center;}
+}
+
+.banner_int2 {
+    background-color: rgb(0, 0, 0);
+    margin: 15px;  
+    width: 97%;
+    height: 700px;
+    border-radius: 12px 12px 0 0;
+    border: 1px solid;
+    border-color: #7482263e;
+    animation-name: abanner2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes abanner2 {
+    0%{background-image: url(/content/img/banner_i1.jpg);
+        background-size: cover;background-position: center;}
+    20%{background-image: url(/content/img/banner_i2.jpg);
+        background-size: cover;background-position: center;}
+    70%{background-image: url(/content/img/banner_i3.jpg);
+        background-size: cover;background-position: center;}
+    100%{background-image: url(/content/img/banner_i1.jpg);
+        background-size: cover;background-position: center;}
+}
+
+.slides {
+    display: flex;
+    width: 200%;
+    animation-name: slide_2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.slide {
+    width: 100%;
+}
+
+.slide img{
+    height: 100%;
+    display: block;
+    background-size: cover;background-position: center;
+}
+
+@keyframes slide_2{
+    0%{transform: translateX(0);}
+    50%{transform: translateX(-40%);}
+}
+
+
+
+.formulario {
+    width: 500px;
+    background-color: rgb(95, 93, 99);
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgb(41, 75, 109);
+}
+
+.titulo {
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.controles {
+    width: 96%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: rgba(227, 223, 217, 0.937);
+    box-shadow: 10px 10px 15px rgba(139, 108, 91, 0.242);
+}
+
+.grupo {
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.radio {
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.boton {
+    width: 150px;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    border: 2px solid;
+    border-color: rgba(146, 158, 158, 0.404);
+
+}
+
+.video_alitas{
+    display: table;
+    margin: auto;
+}
+
+video {
+    width: 800px;
+    margin: 25px;
+    padding: 35px;
+    border: 2px solid #2f2f2f;
+}
+
+
+@media (min-width:1025px) and (max-width:1920px) {
+    .grid-galeria {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:10px
+    }
+
+    .galeria_banner {
+        margin-bottom: 0rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .slides {
+        display: flex;
+        width:180%;
+        animation-name: slide_2;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    
+    .slide {
+        width: 100%;
+    }
+    
+    .slide img{
+        width: 80%;
+        display: block;
+        background-size: cover;
+        background-position: center;
+    }
+    
+
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .grid-galeria {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:10px
+    }
+    .galeria_banner {
+        margin-bottom: 0rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .gal_ban_int {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    
+    .slides {
+        display: flex;
+        width:400%;
+        animation-name: slide_2;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    
+    .slide {
+        width: 100%;
+    }
+    
+    .slide img{
+        width: 80%;
+        display: block;
+        background-size: cover;
+        background-position: center;
+    }
+    
+}
+
+@media (max-width:769px){
+
+    nav {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+
+    .grid-galeria {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:10px
+    }
+
+    .gal_ban_int {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .galeria_banner {
+        margin-bottom: 0rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+
+    .slides {
+        display: flex;
+        width: 20%;
+        animation-name: slide_2;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    
+    .slide {
+        width: 20%;
+    }
+    
+    .slide img{
+        display: none;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    @keyframes slide_2{
+        0%{transform: translateX(-100%);}
+    }
+    
+    footer{
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        margin: auto;
+        border-radius: 20px;
+        margin-top: 35px;
+        padding-right: 0;
+        padding-left: 0;
+        display: block;
+    }
+    
+    
+    .cl_logofooter {
+        width: 20%;
+        padding-left: 70px;
+        padding-right: 40px;
+        justify-items: center;
+    }
+
+    .cl_logofooter_reclamo {
+        width: 40%;
+        padding-left: 70px;
+        padding-right: 50px;
+    }
+    
+    .grid-galeria_prod {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    
+}
