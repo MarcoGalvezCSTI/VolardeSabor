@@ -190,7 +190,7 @@ section nav a:hover{
 .header_alita {
     width: 1fr;
     height: 550px;
-    background-image: url(/content/img/banner2.png);
+    background-image: url(../img/banner2.png);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
